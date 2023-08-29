@@ -1,0 +1,179 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300;1,400&family=Varela+Round&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Montserrat:ital,wght@0,400;1,300;1,400&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(back.png);
+    background-repeat: no-repeat;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.container1{
+    text-align: center;
+}
+body p{
+    color: hsl(201, 11%, 66%);
+}
+.container1 p{
+    color: hsl(201, 11%, 66%);
+    margin-top: 20px;
+}
+button{
+    height: 36px;
+    width: 150px;
+    margin-left: 27px;
+    margin-top: 3%;
+    border: none;
+    border-radius: 15px;
+    color: white; 
+    flex-wrap: wrap;
+}
+.button1{
+    background-color: greenyellow;
+    color: white;
+
+}
+.button2{
+    background-color: rgb(9, 59, 153);
+    color: white;
+}
+.header{
+
+}
+.header h1{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+
+}
+.header2{
+    text-align: center;
+}
+.container2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 52px;
+    width: 100%;
+}
+.compimg{
+    width: 50%;
+}
+.compimg img {
+    width: 100%;
+    height: auto;
+}
+.container3{
+
+}
+.container2 .text{
+margin-right: 52px;
+}
+.text .space{
+line-height: 25px;
+}
+.text .space1{
+margin-top: 30px;
+line-height: 25px;
+}
+.text .space2{
+margin-top: 30px;
+line-height: 25px;
+}
+.text .space3{
+margin-top: 30px;
+line-height: 25px;
+}
+.container3{
+    text-align: center;
+}
+.text3{
+  line-height: 10px;
+}
+.deviceimg{
+    margin-top: 60px;
+    width: 100%;
+}
+.deviceimg img{
+    width: 50%;
+}
+.text3 p {
+    margin-top: 44px;
+    line-height: 21px;
+}
+.main4 .text4 {
+    text-align: center;
+    line-height: 35px;
+}
+.main4 .icon {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 45px;
+}
+.icon img{
+    text-align: center;
+}
+.icon h4{
+    padding: 10px;
+}
+.imges {
+    display: flex;
+    gap: 70px;
+    padding: 8%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.containerlast{
+    text-align: center;
+}
+.containerlast p{
+    margin-top: 30px;
+}
+.containerlast button {
+    height: 36px;
+    width: 12%;
+    margin-left: 27px;
+    margin-top: 2%;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+.containerlast .buton3 {
+background-color:skyblue;
+}
+.containerlast .buton4{
+background-color: indigo;
+}
+.lastcondiner{
+ display: flex;
+ justify-content: space-evenly;
+ position: relative;
+ margin: auto;
+ height: 100px;
+ background-color: whitesmoke;
+ align-items: center;
+}
+ .lastcondiner .footimge img{
+width: 54%;
+}
+.foottext {
+    display: flex;
+    gap: 51px;
+    line-height: 29px;
+}
+.footicon {
+    display: flex;
+    gap: 15px;
+}
+
+
+/* -----------meadia query--------- */
+@media screen and (max-width: 600px) {
+.container1{
+margin-top: 100px;
+    }
+    
+}
